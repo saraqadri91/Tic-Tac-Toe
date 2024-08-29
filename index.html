@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fullscreen-overlay">
+
+        <div class="overlay-content">
+            <h1>Welcome to TIC TAC TOE</h1>
+            <img src="images/Glow-Stick-Tic-Tac-Toe-Night-Games-for-Kids.jpg" alt="Welcome">
+            <button id="startGame">Play Game</button>
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li>Tic Tac Toe</li>
+        </ul>
+    </nav>
+
+    <div class="gameContainer" style="display: none;">
+        <div class="container">
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+        </div>
+    
+        <div class="gameInfo">
+            <div><span class="info">Turn for X</span></div>
+            <button id="playAgain">Play Again</button>
+            <button id="reset">Reset</button>
+            <div class="imagebox">
+                <img src="images/excited.gif" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="app.js"></script>
+</body>
+</html>
